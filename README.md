@@ -147,7 +147,7 @@ git clone https://github.com/AwdreyLongo/QualidadeAr
 
 Abrir o arquivo
 
-/src/scketch.ino
+/main/scketch.ino
 
 
 Configurar Wi-Fi no código:
