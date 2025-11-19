@@ -55,8 +55,8 @@ void loop() {
 
   // Se a qualidade for ruim
   if (qualidadeAr > 150) {
-    digitalWrite(LED_RED, HIGH);
-    digitalWrite(BUZZER_PIN, HIGH);
+    digitalWrite(LED_RED, HIGH); // Ar ruim → LED vermelho aceso
+    digitalWrite(BUZZER_PIN, HIGH); // Ar ruim → Buzzer aciona
     digitalWrite(LED_GREEN, LOW);
     client.publish("saude/alerta", "⚠️ ALERTA: Qualidade do ar ruim!");
   } else {
